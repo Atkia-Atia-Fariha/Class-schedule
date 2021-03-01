@@ -1,0 +1,44 @@
+body{
+    background-image: url("pngtree-black-minimalist-atmospheric-wooden-background-backgroundwooden-backgroundtree-texture-image_77053.jpg");
+    background-size: auto;
+    background-repeat: round;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.heading{
+    color:whitesmoke;
+    font-family: 'Akaya Kanadaka', cursive;
+    margin-bottom: 30px;
+}
+h1{
+    transition: transform 2s;
+}
+h1:hover{
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+background-image{
+    width:100%;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 20px;
+}
+.lab-day{
+    grid-column: span 3;
+}
+.paragraph{
+    padding-top: 20px;
+    color: whitesmoke;
+    position: relative;
+    left: 200px;
+}
+.paragraph:hover{
+    color: tomato;
+    font-size: large;
+}
+.editor{
+    color: whitesmoke;
+    position: relative;
+    left: 1000px;
+}
