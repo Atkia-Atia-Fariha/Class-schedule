@@ -47,16 +47,32 @@ background-image{
 .editor{
     color: whitesmoke;
     position: relative;
-    left: 850px;
+    left: 500px;
+   
 }
-.drive{
-    position: relative;
-    left: 240px;
-}
+
 .drive:hover{
     color: blue;
-    font-size: large;
+    
+}
+.description{
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 250px;
+  right: 0;
+  
+  color: tomato;
+  visibility: hidden;
+  opacity: 0;
+}
+.MIT:hover .description{
+    visibility: visible;
+    opacity: 1;
 }
 .foot{
     display: flex;
+    position: relative;
+    left: 240px;
+    gap: 10px;
 }
