@@ -3,7 +3,7 @@ body{
     background-size: auto;
     background-repeat: round;
     margin-top: 30px;
-    padding-top: 10px;
+    padding-top: 20px;
     width: 700px;
     height: 700px;
 }
@@ -18,7 +18,13 @@ h1{
     transition: transform 5s;
 }
 h1:hover{
-    transform: scale3d(1.5, 1.5, 1.5);
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+h2{
+    transition: transform 7s;
+}
+h2:hover{
+    transform: scale3d(1.2, 1.2, 1.2);
 }
 background-image{
     width:700px;
@@ -42,12 +48,12 @@ background-image{
 }
 .paragraph:hover{
     color: tomato;
-    font-size: large;
+    font-size:medium;
 }
 .editor{
     color: whitesmoke;
     position: relative;
-    left: 490px;
+    left: 350px;
    
 }
 
@@ -61,7 +67,9 @@ background-image{
   bottom: 0;
   left: 250px;
   right: 0;
-  
+  background-color: darkslategrey;
+  width: 320px;
+  height: 25px;
   color: tomato;
   visibility: hidden;
   opacity: 0;
