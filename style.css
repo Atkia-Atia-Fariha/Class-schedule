@@ -42,7 +42,7 @@ background-image{
 }
 .paragraph{
     padding-top: 20px;
-    color:black;
+    color:white;
     position: relative;
     left: 230px;
 }
@@ -92,6 +92,9 @@ background-image{
 
     }
     .container{
+        left: 160px;
+    }
+    .foot{
         left: 160px;
     }
 }
