@@ -1,11 +1,11 @@
 body{
-    background-image: url("pngtree-black-minimalist-atmospheric-wooden-background-backgroundwooden-backgroundtree-texture-image_77053.jpg");
+    background-image: url("daniel-jensen-NMk1Vggt2hg-unsplash.jpg");
     background-size: auto;
     background-repeat: round;
     margin-top: 30px;
     padding-top: 50px;
-    width: 700px;
-    height: 700px;
+    width: 760px;
+    height: 760px;
 }
 .heading{
     color:whitesmoke;
@@ -27,8 +27,8 @@ h2:hover{
     transform: scale3d(1.2, 1.2, 1.2);
 }
 background-image{
-    width:700px;
-    height: 700px;
+    width:760px;
+    height: 760px;
 }
 .container{
     display:grid;
@@ -42,18 +42,18 @@ background-image{
 }
 .paragraph{
     padding-top: 20px;
-    color: whitesmoke;
+    color:black;
     position: relative;
     left: 230px;
 }
 .paragraph:hover{
-    color: tomato;
+    color: rgba(255, 0, 0, 0.904);
     font-size:medium;
 }
 .editor{
     color: whitesmoke;
     position: relative;
-    left: 360px;
+    left: 260px;
    
 }
 
@@ -84,4 +84,5 @@ background-image{
     position: relative;
     left: 240px;
     column-gap: 20px;
+    height: 65px;
 }
