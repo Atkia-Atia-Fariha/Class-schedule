@@ -86,3 +86,8 @@ background-image{
     column-gap: 20px;
     height: 65px;
 }
+@media (min-height: 800px){
+    .bodi{
+        background-image: url("pngtree-black-minimalist-atmospheric-wooden-background-backgroundwooden-backgroundtree-texture-image_77053.jpg");
+    }
+}
